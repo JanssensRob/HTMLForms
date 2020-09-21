@@ -1,0 +1,68 @@
+<!--Rob Janssens 14-9-2020-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Receptenidee</title>
+</head>
+
+<body class="index">
+    <header id="link">
+        <nav>
+            <a href="index.html" alt="index">Terug naar foodpagina</a>
+        </nav>
+    </header>
+    <main id="content">
+        <section>
+            <form name="Information" method="POST" data-netlify="true">
+                <p>
+                    <labeL>Uw naam:
+                        <input type="text" name="naam" value="" /></labeL>
+                </p>
+                <p>
+                    <label>Uw e-mailadres:
+                        <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Uw telefoonnummer:
+                        <input type="tel" name="telefoonnummer" /></label>
+                </p>
+                <p><label>Uw leeftijd:
+                        <input type="leeftijd" name="geboortedatum" /> </label>
+                </p>
+                <p><label>Geslacht:
+                        <input type="radio" value="man" name="radiobutton" />Man
+                        <input type="radio" value="vrouw" name="radiobutton">Vrouw</label>
+                <p>
+                <p><label>Favorite cuisine:
+                        <input type="checkbox" class="food" name="favfood1" value="Frans">Frans
+                        <input type="checkbox" class="food" name="favfood2" value="Italiaans">Italiaans
+                        <input type="checkbox" class="food" name="favfood3" value="Spaans">Spaans
+                        <input type="checkbox" class="food" name="favfood4" value="Arabisch">Arabisch</label>
+                </p>
+                <p><label>Favoriete kleur short:
+                        <input type="color" name="favshort"> </label>
+                </p>
+                </p><label>Uw biografie
+                    <textarea name="uw biografie"></textarea></label>
+                </p>
+                <p><label>Upload recente recept:
+                        <input type="file" name="uploadFile"></label>
+                </p>
+                <p><label> Uw website:
+                        <input type="url" name="website" placeholder="https://wwww.google.nl"></label></p>
+                <p>
+                    <button type="reset">Reset</button>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer id="voeter">
+        <a href=" https://www.google.nl" alt="google">Google hier meer</a>
+    </footer>
+</body>
+
+</html>
